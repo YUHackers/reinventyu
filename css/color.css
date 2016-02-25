@@ -1,0 +1,115 @@
+
+/*Selection Color*/
+
+::selection{
+	background:#f0145a;
+	color:#fff;
+}
+::-moz-selection{
+	background:#f0145a;
+	color:#fff;
+}
+
+/* Overlay Background*/
+
+.site-overlay,
+.speaker-social {
+	background:rgba(240,20,90,.5);
+}
+
+/*Text Color*/
+
+body,
+.read-more,
+.replay,
+.menu-btn,
+.tag-widget ul li a,
+.share-post ul li a ,
+.single-post-widget a,
+.booking-form-area,
+.subscribe-form input[type="text"],
+.blog-meta ul li a{
+	color:#464646;
+}
+.pushy li a,
+.pushy li a:hover,
+.overlay,
+.button,
+.speaker-social li a,
+.sb-head-area a,
+.footer-area,
+.footer-area a,
+.button.alt,
+.button.alt:hover,
+.button:hover,
+.replay:hover,
+.tag-widget ul li a:hover,
+.read-more:hover,
+.subscribe-form input[type="submit"],
+.fetu-testimonial-innr h4 small{
+	color:#fff;
+}
+.speaker-social li a:hover,
+.single-post-widget:hover a,
+.single-statistic h2,
+.schedule-title h6,
+.single-speakers h6{
+	color:#f0145a;
+}
+
+/*Background Color*/
+
+.gray-bg,
+.tag-widget ul li a,
+.booking-form input[type="text"],
+.comment-form textarea,
+.comment-form input[type="text"]{
+	background:#ebebeb;
+}
+.white-bg,
+.menu-btn,
+.speaker-social li a:hover,
+.post-author-in-innr img,
+.single-comment-in-innr img{
+	background:#ffffff;
+}
+.input-field input[type="radio"]:checked + label:after,
+.button,
+.pushy li a:hover,
+.footer-area,
+.replay:hover,
+.read-more:hover,
+.tag-widget ul li a:hover,
+.button.alt:hover{
+	background:#f0145a;
+}
+.button:hover,
+.menu-btn .line,
+.button.alt{
+	background:#464646;
+}
+
+
+/*Border Color*/
+
+.border1px,
+.menu-btn,
+.share-post ul li a .fa,
+.share-post ul li a,
+.post-author-in-innr img,
+.single-comment-in-innr img,
+.replay,
+.widget-title,
+.single-post-widget h5,
+.read-more{
+	border-color:#ebebeb;
+}
+.sb-meta h4,
+.head-area .date h4{
+	border-color:#fff;
+}
+.read-more:hover,
+.replay:hover,
+.input-field ul li label:after{
+	border-color:#f0145a;
+}
