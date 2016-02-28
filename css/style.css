@@ -1,4 +1,11 @@
-/*
+.bouncy-arrow {
+    bottom: -40px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
 
 Klank Event - Event Landing Page
 
@@ -208,7 +215,7 @@ img{
 }
 
 .head-area .overlay{
-	padding: 0px 0 100px 0;
+	padding: 0px 0 30px 0;
 }
 
 .head-area img {
@@ -244,7 +251,7 @@ img{
 	background-size: cover;
 }
 .about-area{
-	padding:85px 0;
+	padding:0px 0;
 }
 .about-images{
 	padding:5px;
@@ -313,7 +320,15 @@ img{
 	font-weight:700;
 	color: #4f728a !important;
 }
+.single-statistic h3{
+	font-weight:700;
+	color: #4f728a !important;
+}
 .single-statistic h4{
+	font-weight:700;
+	color: #4f728a !important;
+}
+.single-statistic h5{
 	text-transform:uppercase;
 }
 .single-statistic .icon{
@@ -475,11 +490,13 @@ img{
 .testimonials-area .section-title-innr{
 	height:170px;
 }
+.single-testimonial-innr .border1px {
+  background: #fff;
+}
 .testimonials-area{
 	padding:85px 0;
 }
 .single-testimonial{
-	padding-left:50px;
 	position:relative;
 }
 .client-image{
@@ -490,7 +507,13 @@ img{
 	margin-top:-60px;
 }
 .single-testimonial-in-innr{
-	padding:20px 20px 20px 80px;
+	padding:10px;
+}
+.single-testimonial-in-innr h5 {
+  color:#31AAE1;
+}
+.single-testimonial-in-innr p {
+
 }
 .single-testimonial h4{
 	text-transform:uppercase;
@@ -650,9 +673,9 @@ img{
 	background-size:cover;
 }
 .booking-area .overlay{
-	padding:100px 0;
+	padding:70px 0;
 }
-.booking-content{}
+
 .booking-content h2{
 	text-transform:uppercase;
 	font-weight:700;
@@ -663,7 +686,7 @@ img{
 	margin-bottom:15px;
 }
 .booking-content img{
-	margin:20px 0 0 200px;
+	margin:-40px 0 0 250px;
 }
 .booking-form-innr{
 	padding:30px 18px 10px;
@@ -947,6 +970,12 @@ img{
 }
 
 /*Coustom Media Query CSS*/
+@media only screen and (min-width: 768px) {
+  .booking-form-area {
+      margin-top: 100px;
+  }
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.parallax {
@@ -1004,6 +1033,11 @@ img{
 	}
 
 }
+
+@media only screen and (max-width: 992px) {
+  .yuhackers-logo {
+    display: none;
+  }
 
 @media only screen and (max-width: 767px) {
 	.parallax {
@@ -1071,7 +1105,7 @@ img{
 	}
 	.single-testimonial-in-innr,
 	.post-author-in-innr{
-		padding:80px 20px 20px 20px;
+		padding:20px 20px 20px 20px;
 	}
 	.cta-area h2{
 		padding-bottom:20px;
@@ -1108,7 +1142,7 @@ img{
 .bounce {
  position: absolute;
  margin-top: 100px;
- bottom: 30px;
+ bottom: 20px;
  left: 50% ;
  width: 60px;
  height: 60px ;

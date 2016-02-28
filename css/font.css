@@ -41,9 +41,9 @@ h6,.h6-like{
 	line-height:18px;
 }
 p,.p-like{
-	font-size:14px;
+	font-size:16px;
 	line-height:24px;
-	letter-spacing:0.025em;
+	letter-spacing:0.04em;
 }
 p.lead{
 	font-size:18px;
